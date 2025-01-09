@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  color: rgb(121, 43, 13);
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.card img {
+  border-radius: 20%;
+  width: 200%;
+}
+.bee {
+  height: 50px;
+  width: 50px;
+}
+
+aside {
+  background-color: #fbf7e3;
+}
+
+.sidebar {
+  background-color: #f3df85;
+}
