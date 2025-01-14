@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap exercise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--1 Prima di tutto mi devo creare il container che contiene le griglie-->
+    <div class="container">
+      <h1 class="text-center">Pratica con il Grid System</h1>
+      <h3 class="text-center">Esercizio 1</h3>
+      <!--2 Creo la classe ROW che contiene le 12 colonne (sono il massimo consentito)-->
+      <div class="row">
+        <!--3 Qui dentro avremmo i 12 spazi disponibili-->
+        <!--Devo creare 2 colonne e quindi devo fare in modo che lo spazio disponibile venga
+        sempre uguale a 12 quindi col-4 x 3 = 12-->
+        <div class="p-3 col-md-4 text-white border-black">
+          <div style="background-color: blue">1</div>
+        </div>
+
+        <div class="p-3 col-md-4 text-white border-black"><div style="background-color: blue">2</div></div>
+        <div class="p-3 col-md-4 text-white border-black"><div style="background-color: blue">3</div></div>
+        <!--md sta per breakpoint medio-->
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center">Esercizio 2</h3>
+        <div class="p-3 col-4"><div style="background-color: yellow">1</div></div>
+        <div class="p-3 col-4"><div style="background-color: yellow">2</div></div>
+        <div class="p-3 col-4"><div style="background-color: yellow">3</div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center">Esercizio 3</h3>
+        <div class="p-3 col-2"><div style="background-color: green">1</div></div>
+        <div class="p-3 col-2"><div style="background-color: green">2</div></div>
+        <div class="p-3 col-2"><div style="background-color: green">3</div></div>
+        <div class="p-3 col-2"><div style="background-color: green">4</div></div>
+        <div class="p-3 col-2"><div style="background-color: green">5</div></div>
+        <div class="p-3 col-2"><div style="background-color: green">6</div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" style="color: white">
+        <h3>Esercizio 4</h3>
+        <div class="p-3 col-xl-5"><div style="background-color: red">1</div></div>
+        <div class="p-3 col-xl-2"><div style="background-color: red">2</div></div>
+        <div class="p-3 col-xl-5"><div style="background-color: red">3</div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center">Esercizio 5</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center">Esercizio 6</h3>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
