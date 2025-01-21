@@ -1,0 +1,11 @@
+@mixin title($title) {
+  text-transform: uppercase;
+  font-size: 5rem;
+  &:hover {
+    color: #2d2c4d;
+  }
+}
+
+@mixin floating($border-radius, $box-shadow, $border) {
+  border-radius: 45%;
+}

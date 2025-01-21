@@ -1,0 +1,11 @@
+@import "./partials/reset";
+@import "./partials/colors";
+@import "./partials/font";
+@import "./partials/spacing";
+@import "./partials/bottons";
+@import "./partials/mixing";
+@import "./partials/animation";
+
+bodybody {
+  font-family: $font-serif;
+}
